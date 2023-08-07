@@ -14,9 +14,9 @@ function Card({id,name,year,About,image,imdb,removeShow}){
 
         <img src={image} alt="" className='image'></img>
 
-          <h4 className="card-name">{name}</h4>
         <div className="show-detail">
 
+          <h4 className="card-name">{name}</h4>
           <h4 className="card-imdb">IMDb Rating {imdb}/10</h4>
           <h4 className="card-year">year {year}</h4>
 
